@@ -4,3 +4,5 @@ config bashrc pour dev
 modif test
 
 modif test 2 du submodules
+
+modif test new .gitmodules
