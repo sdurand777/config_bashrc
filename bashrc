@@ -117,6 +117,11 @@ if ! shopt -oq posix; then
 fi
 
 
+alias condamamba='source "${HOME}/conda/etc/profile.d/conda.sh"
+                        source "${HOME}/conda/etc/profile.d/mamba.sh"'
+
+alias comp='if [ -d "build" ]; then rm -rf build; fi && mkdir build && cd build && cmake .. && make -j16 && cd ..'
+
 # source bashrc file
 source ~/.config/nvim/snippets.bashrc
 
